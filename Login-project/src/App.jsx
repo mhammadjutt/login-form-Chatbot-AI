@@ -26,7 +26,7 @@ function App() {
         <>
           <Navbar userEmail={userDetail?.email} />
           <div className="content">
-            <h1>Welcome to your Dashboard</h1>
+            <h1 className='heading'>Welcome to your Dashboard</h1>
             <p>You are now logged in.</p>
             <Chatbot onLogout={handleLogout} />
           </div>
